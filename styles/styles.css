@@ -1,6 +1,121 @@
-.banner {
+.header {
+    background-image: url('Banner-Image.png');
+    height: 600px;
     background-repeat: no-repeat;
-    width: 1320px;
-    height: 650px;
-    margin: 50px 150px 0 150px;
+    border: 0;
+    border-radius: 16px;
+    margin: 0 auto;
+    background-position: center;
+    align-items: center;
+}
+
+.container {
+    color: greenyellow;
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#title {
+    font-size: 32px;
+    font-weight: 400;
+    /* padding-bottom: -100px; */
+}
+
+#headline {
+    font-size: 72px;
+    font-weight: 900;
+    padding-top: -100px;
+}
+
+.container h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 170px;
+}
+
+/* .banner-title {
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}  */
+/* section style */
+section {
+    display: block;
+    align-items: center;
+}
+
+.discount {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.deals {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.img {
+    align-items: center;
+    padding-left: 450px;
+}
+
+.midnight-party {
+    background-image: url('../styles/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: 0 auto;
+    background-position: center;
+}
+
+.welcome {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.about-2024 {
+    color: chartreuse;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+#party-text{
+    padding-top: 126px;
+    margin-left: 300px;
+}
+.join{
+    background: black;
+    padding:15px 30px;
+    font-size: 20px;
+    color:#FFF;
 }
