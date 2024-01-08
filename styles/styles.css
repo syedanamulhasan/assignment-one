@@ -62,6 +62,7 @@
     margin: 45px 600px;
 }
 
+/* .midnight-party-styles */
 .midnight-party {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../styles/resources/Vectorrr.png');
     width: 1320px;
@@ -100,17 +101,116 @@
     line-height: 30px;
 }
 
-.join-now{
+.join-now {
     background: none;
     font-family: Inter;
     padding: 20px 60px;
     font-size: 20px;
     border: 0;
-a{
+}
+
+a {
     text-decoration: none;
     color: white;
 }
-    /* color: #FFF;
+
+.place {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 600px;
+    border: 0;
+    border-radius: 16px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.party-place {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-top: 100px;
+}
+
+span {
+    color: #F00;
+}
+
+.join {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.bonus-part {
+    width: 1320px;
+    height: 450px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.bonus-part-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#best-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#coming-soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+#more-offer {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.cicle-image {
+    border: 15px solid #F00;
+    border-radius: 463px;
+    padding: 20px;
+}
+.happy-new-year{
+    text-align: left;
+    margin-left: 50px;
+}
+#year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.group96{
+    padding-top: 40px;
+}
+
+/* color: #FFF;
 
 
 .place {
