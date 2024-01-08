@@ -114,6 +114,7 @@ a {
     color: white;
 }
 
+/* party-place-styles */
 .place {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 1320px;
@@ -151,6 +152,7 @@ span {
     margin-top: 45px;
 }
 
+/* bonus-part-style */
 .bonus-part {
     width: 1320px;
     height: 450px;
@@ -191,25 +193,72 @@ span {
     padding-top: 20px;
 }
 
+/* circle-image-styles */
 .cicle-image {
     border: 15px solid #F00;
     border-radius: 463px;
     padding: 20px;
 }
-.happy-new-year{
+
+.happy-new-year {
     text-align: left;
     margin-left: 50px;
 }
+
 #year {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
 }
-.group96{
+
+.group96 {
     padding-top: 40px;
 }
+.holidays-sell{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.fifth-section {
+    text-align: center;
+}
 
+.fifth-section h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fifth-section h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.fifth-section p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* discount-image-section */
+.discount-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.portfolio{
+    max-width: 1320px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.portfolio-text{
+    
+}
 /* color: #FFF;
 
 
