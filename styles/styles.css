@@ -388,38 +388,61 @@ footer {
 }
 
 .contact {
-    
-}
-
-.contact{
     color: #FFF;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
 }
 
-/* .subscribe-button input[type:email] {
-    width: 648px;
-    height: 72px;
-} */
-
-/* color: #FFF;
-
-
-.place {
-    height: 482px;
-    background-color: lightcyan;
-    margin: 120px;
+.contact img {
+    width: 24px;
+    height: 24px;
+    padding-right: 10px;
 }
 
-.party-place {
-    color: black;
-    text-align: center;
+.footer-text {
+    display: flex;
+    margin: 0 140px;
+    padding-top: 160px;
+    justify-content: space-between;
+}
+
+.website {
+    color: #FFF;
     font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 56px;
-    text-transform: capitalize;
-    padding-top: 40px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
 }
+
+.website img {
+    padding-right: 10px;
+}
+
+.social-icons img {
+    padding-right: 30px;
+}
+
+.social-icons {
+    margin-left: 785px;
+    margin-top: 127px;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 140px;
+}
+
+/* .social-icons{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+} */
